@@ -75,10 +75,13 @@ nav li{
     align-items: center;
     /* margin-top: 20px; */
   }
+  .team-img img{
+    width: 100%;
+  }
   .team-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 10px;
   }
   .teams-contain{
     padding-left: 70px;
@@ -98,6 +101,12 @@ nav li{
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  /* Enojy & Featers */
+  .Features-title{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
   /* facts card */
   .facts-card .card img{
     width: 30%;
@@ -109,12 +118,30 @@ nav li{
     border-radius: 8px;
     border: 1px solid #ff900e;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    margin-left: 10px;
     
   }
   .facts-card{
     display: flex;
     justify-content: space-around;
+  }
+  .enjoys video{
+    width: 30%;
+    height: 40%;
+    margin-top: 300px;
+    margin-left: 70px;
+  }
+  .enjoys{
+    display: flex;
+    margin-top: 60px;
+  }
+  .enjoy-card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
   }
   /* sponsor */
   .sponsor{
@@ -145,7 +172,7 @@ nav li{
     header{
       padding: 20px;
     }
-    nav, .Container-main{
+    nav, .Container-main, .enjoys{
       flex-direction: column;
     }
     .team-img{
@@ -163,6 +190,12 @@ nav li{
     }
     .footers{
       padding: 50px;
+    }
+    .enjoys video{
+      width: 100%;
+      height: 40%;
+      margin: 0;
+  
     }
 
   }
